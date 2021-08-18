@@ -68,7 +68,7 @@ h1 {
 /* hero section */
 
 #hero {
-  background: url("image/hero.jpg") no-repeat center center/ cover;
+  background: url("image/hero1.jpg") no-repeat center center/ cover;
   height: 910px;
 }
 #hero .hero-content {
