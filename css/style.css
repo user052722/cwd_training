@@ -1,0 +1,193 @@
+/* global setting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* global style */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1 {
+  padding-bottom: 20px;
+}
+/* main rule */
+
+/* design the navigation */
+#navbar {
+  background: #082032;
+  overflow: auto;
+  color: #fff;
+}
+#navbar a {
+  color: #fff;
+}
+/* removing the bullets in the list */
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+/* float list items in the left to have them horizontally align */
+#navbar ul li {
+  float: left;
+}
+/* convert anchor link to block elements to apply some padding */
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+/* Navigaton using pseudo selector */
+#navbar ul li a:hover {
+  background: #334756;
+  color: #ff4c29;
+}
+
+#navbar ul li a.active {
+  background: rgba(255, 255, 255, 0.1);
+}
+/* ------------------------------------------------------------------------------- */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+/* ------------------------------------------------------------------------------- */
+/* hero section */
+
+#hero {
+  background: url("/image/hero.jpg") no-repeat center center/ cover;
+  height: 910px;
+}
+#hero .hero-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+#hero .hero-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+.primary-text {
+  color: #f0f0cb;
+}
+#hero .hero-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+.text-lead {
+  font-size: 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #334756;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+#about {
+  height: 400px;
+}
+#about p {
+  line-height: 2em;
+}
+#about h2 {
+  color: #ffb740;
+}
+#about i {
+  margin-bottom: 10px;
+}
+#about p {
+  line-height: 2em;
+}
+#about .content-1 {
+  float: left;
+  width: 33%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+}
+#about .content-2 {
+  float: left;
+  width: 33%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+}
+#about .content-3 {
+  float: left;
+  width: 33%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20px;
+}
+#about a.btn {
+  color: #082032;
+}
+#about a.c-btn:hover {
+  color: #ffb740;
+}
+
+/* FOOTER SEC TESTIMONIALS */
+#testimonials {
+  background: url(../image/f1.jpg) no-repeat center center/ cover;
+  height: 600px;
+  overflow: hidden;
+}
+#testimonials .testimonial img {
+  height: 100px;
+}
+.row {
+  background: rgba(39, 62, 84, 0.4);
+  overflow: hidden;
+  height: 600px;
+  z-index: 2;
+}
+#testimonials .lead-head {
+  color: #fff;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+.bg-primary {
+  background: rgba(255, 255, 255, 0.4);
+}
+/* adjusting the testimonials containers */
+#testimonials .testimonial {
+  padding: 20px;
+  width: 50%;
+  margin-bottom: 40px;
+  border-radius: 1.2em;
+}
+#testimonials .testimonial img {
+  height: 100px;
+  width: 90px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+footer {
+  background: #082032;
+  height: 70px;
+  overflow: auto;
+}
+footer p {
+  padding-top: 20px;
+  text-align: center;
+}
